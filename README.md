@@ -16,7 +16,7 @@ The data volume is exposed as `/photon/photon_data` and can be mounted, this way
 ## With `docker run`
 
 ```bash
-docker run -p 2322:2322 -it thomasnordquist/photon-geocoder:latest
+docker run -p 2322:2322 -it nipunbalan/photon-geocoder:latest
 ```
 
 ## Search
@@ -29,7 +29,7 @@ http://localhost:2322/api?q=berlin
 
 
 ## Build from git
-https://github.com/thomasnordquist/photon-docker
+https://github.com/nipunbalan/photon-docker
 
 ### With docker-compose
 ```bash
@@ -41,7 +41,7 @@ docker-compose up
 
 ### With `docker build`
 ```bash
-docker build --tag thomasnordquist/photon-geocoder .
+docker build --tag nipunbalan/photon-geocoder .
 ```
 
 
